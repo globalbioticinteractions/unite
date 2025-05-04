@@ -1,0 +1,115 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "data.csv.gz",
+    "interactionTypeName" : "hasHost",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002454",
+    "dcterms:bibliographicCitation" : "Abarenkov K, Nilsson RH, Larsson K-H, Taylor AFS, May TW, Frøslev TG, Pawlowska J, Lindahl B, Põldmaa K, Truong C, Vu D, Hosoya T, Niskanen T, Piirmann T, Ivanov F, Zirk A, Peterson M, Cheeke TE, Ishigami Y, Jansson AT, Jeppesen TS, Kristiansson E, Mikryukov V, Miller JT, Oono R, Ossandon FJ, Paupério J, Saar I, Schigel D, Suija A, Tedersoo L, Kõljalg U. 2023. The UNITE database for molecular identification and taxonomic communication of fungi and other eukaryotes: sequences, taxa and classifications reconsidered. Nucleic Acids Research, https://doi.org/10.1093/nar/gkad1039",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Link",
+        "titles" : "Link",
+        "datatype" : "string"
+      }, {
+        "name" : "Created",
+        "titles" : "Created",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceOccurrenceId",
+        "titles" : "Sequence ID",
+        "datatype" : {
+           "valueUrl": "https://unite.ut.ee/search.php?type=sh&qresult=yes&version=10&threshold=3&is_singleton=1&taxon_name=&taxon_id=&taxon_name_repr=&accno={sourceOccurrenceId}"
+        }
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "UNITE.",
+        "titles" : "UNITE.",
+        "datatype" : "string"
+      }, {
+        "name" : "Interactions",
+        "titles" : "Interactions",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD original data.Organism",
+        "titles" : "INSD original data.Organism",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD original data.Lineage",
+        "titles" : "INSD original data.Lineage",
+        "datatype" : "string"
+      }, {
+        "name" : "INSD original data.Host",
+        "titles" : "INSD original data.Host",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Sampling event"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Identification.Current taxon name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdomName",
+        "titles" : "Identification.Kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "Identification.Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "Identification.Class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Identification.Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Identification.Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Identification.Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonRank",
+        "titles" : "Identification.Taxon rank",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Parent.Interactions",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
