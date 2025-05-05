@@ -31,28 +31,28 @@
            "valueUrl": "https://unite.ut.ee/search.php?type=sh&qresult=yes&version=10&threshold=3&is_singleton=1&taxon_name=&taxon_id=&taxon_name_repr=&accno={sourceOccurrenceId}"
         }
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.3.0",
+        "titles" : "UNITE.3.0",
         "datatype" : "string"
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.2.5",
+        "titles" : "UNITE.2.5",
         "datatype" : "string"
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.2.0",
+        "titles" : "UNITE.2.0",
         "datatype" : "string"
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.1.5",
+        "titles" : "UNITE.1.5",
         "datatype" : "string"
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.1.0",
+        "titles" : "UNITE.1.0",
         "datatype" : "string"
       }, {
-        "name" : "UNITE.",
-        "titles" : "UNITE.",
+        "name" : "UNITE.0.5",
+        "titles" : "UNITE.0.5",
         "datatype" : "string"
       }, {
         "name" : "Interactions",
