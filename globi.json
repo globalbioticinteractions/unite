@@ -28,7 +28,7 @@
         "name" : "referenceUrl",
         "titles" : "Sequence ID",
         "datatype" : {
-           "valueUrl": "https://unite.ut.ee/search.php?type=sh&qresult=yes&version=10&threshold=3&is_singleton=1&taxon_name=&taxon_id=&taxon_name_repr=&accno={referenceCitation}"
+           "valueUrl": "https://unite.ut.ee/search.php?type=sh&qresult=yes&version=10&threshold=3&is_singleton=1&taxon_name=&taxon_id=&taxon_name_repr=&accno={referenceUrl}"
         }
       }, {
         "name" : "UNITE.3.0",
